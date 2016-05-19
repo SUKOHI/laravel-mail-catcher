@@ -1,0 +1,20 @@
+{
+    "name": "sukohi/mail-catcher",
+    "description": "A Laravel package to forcely change email address to send for email testing.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\MailCatcher\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
