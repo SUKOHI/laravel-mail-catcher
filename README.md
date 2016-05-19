@@ -19,7 +19,7 @@ Also alias
 # Usage
 
 You can use \Mail::send() as well as before.  
-However if `app/config/mail.php` has `mail_catcher` value like the below, sending email address will change forcely.
+However if `app/config/mail.php` has `mail_catcher` value like the below, sending email address will change forcedly.
 
     return array(
     
